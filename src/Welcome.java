@@ -29,12 +29,12 @@ public class Welcome {
     private final double margin = 32;
 
     public static void main(String[] args) {
-        new Welcome("macalester");
+        new Welcome("MAMA WEEVOO!!!!");
     }
 
     public Welcome(String message) {
         canvas = new CanvasWindow("Welcome to COMP 127", 600, 400);
-        canvas.setBackground(Color.BLACK);
+        canvas.setBackground(Color.WHITE);
 
         letters = message.chars().mapToObj(FlyingLetter::new).collect(toList());
 
