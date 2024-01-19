@@ -17,8 +17,8 @@ public class Welcome {
     private static final double
         PHASE_SPREAD = 0.5,
         INITIAL_TIME = -10,
-        REGULAR_SPEED = 0.025,
-        SLOW_MO_SPEED = 0.005,
+        REGULAR_SPEED = 0.5,
+        SLOW_MO_SPEED = 0.0005,
         SLOW_MO_TIGHTNESS = 3,
         SLOW_MO_CURVE = 5;
 
